@@ -1,11 +1,11 @@
-🧠 Skin Disease Classification & Lesion Segmentation using Deep Learning
+Skin Disease Classification & Lesion Segmentation using Deep Learning
 📌 Overview
 
 This project presents a deep learning pipeline for automatic skin disease classification and lesion segmentation using the HAM10000 dataset. The system combines transfer learning-based classification models with medical image segmentation networks to assist dermatological analysis.
 
 The project compares multiple deep learning architectures and evaluates their performance on dermoscopic images.
 
-🎯 Objectives
+ Objectives
 
 Classify skin lesions into 7 disease categories
 
@@ -50,8 +50,8 @@ Data augmentation
 
 were applied.
 
-🧠 Models Implemented
-1️⃣ Classification Models
+ Models Implemented
+1️ Classification Models
 MobileNetV2
 
 Lightweight architecture
@@ -74,7 +74,7 @@ Stronger performance on medical images
 Accuracy:
 76%
 
-2️⃣ Segmentation Models
+2️ Segmentation Models
 U-Net
 
 Encoder–decoder architecture with skip connections designed for biomedical image segmentation.
@@ -83,7 +83,7 @@ Attention U-Net
 
 Enhanced U-Net architecture with attention gates that allow the network to focus on relevant lesion regions.
 
-📊 Results
+Results
 Classification Accuracy
 Model	Accuracy
 MobileNetV2	70%
@@ -98,7 +98,7 @@ Brightness Variation	0.891	0.820	0.885	0.924
 
 The segmentation model maintained high performance even under brightness changes.
 
-📈 Visualizations
+Visualizations
 
 The project generates multiple plots for analysis:
 
@@ -152,7 +152,7 @@ Web Interface (optional)
 
 Streamlit
 
-📂 Project Structure
+Project Structure
 
 skin-disease-classification/
 │
@@ -179,7 +179,7 @@ skin-disease-classification/
 ├── README.md                    # Project documentation
 └── SHIVA_Skin_Disease_report.pdf # Project report
 
-🚀 Installation
+Installation
 
 1. Clone the repository:
 ```bash
@@ -192,7 +192,7 @@ cd skin-disease-classification
 pip install -r requirements.txt
 ```
 
-▶️ Running the Project
+Running the Project
 
 Train Classification Model
 ```bash
@@ -208,7 +208,7 @@ Run Streamlit Interface
 ```bash
 streamlit run app.py
 ```
-📚 References
+References
 
 Tschandl, P., Rosendahl, C., & Kittler, H.
 The HAM10000 dataset: A large collection of multi-source dermatoscopic images of common pigmented skin lesions.
@@ -230,6 +230,6 @@ Oktay, O. et al.
 Attention U-Net: Learning Where to Look for the Pancreas.
 2018.
 
-👨‍💻 Author
+Author
 
 Developed as part of a Data Science / Computer Vision academic project.
