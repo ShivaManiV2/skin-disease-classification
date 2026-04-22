@@ -54,7 +54,7 @@ I utilized Transfer Learning with pre-trained weights from ImageNet to overcome 
 Standard U-Net can struggle when the background is noisy (e.g., skin texture, hair) or when the lesion has poor contrast. To solve this, I implemented an **Attention U-Net**, which uses specialized gates to suppress irrelevant regions and highlight salient features (the lesion) during feature extraction.
 
 <p align="center">
-  <img src="readme_assets/overlay.png" width="400" alt="Standard U-Net Overlay"> <img src="readme_assets/overlay_attention.png" width="400" alt="Attention U-Net Overlay">
+  <img src="readme_assets/Ground Truth Vs Attention U-Net Overlay.png" width="400" alt="Standard U-Net Overlay"> <img src="readme_assets/overlay_attention.png" width="400" alt="Attention U-Net Overlay">
   <br>
   <em>Figure 4: Visual Overlay Comparison. Standard U-Net (Left) vs. Attention U-Net (Right) isolating the lesion.</em>
 </p>
@@ -70,7 +70,7 @@ The HAM10000 dataset is highly skewed toward the "nevus" (nv) class. To ensure t
 The confusion matrix shows the resulting robustness, successfully identifying instances of rare diseases that a vanilla optimizer would have missed.
 
 <p align="center">
-  <img src="readme_assets/confusion_matrix.png" width="600" alt="ResNet18 Confusion Matrix">
+  <img src="readme_assets/RestNet18_confusion_matrix.png" width="600" alt="ResNet18 Confusion Matrix">
   <br>
   <em>Figure 5: ResNet18 Confusion Matrix. Demonstrating model performance across 7 classes despite skew.</em>
 </p>
