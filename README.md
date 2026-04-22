@@ -146,4 +146,4 @@ streamlit run app.py
 
 👨‍💻 Author
 Developed as part of a Data Science / Computer Vision academic project by Shivamaniteja Boini.
-Connect with me on LinkedIn
+[Connect with me on LinkedIn](https://www.linkedin.com/in/boini-shivamaniteja)
