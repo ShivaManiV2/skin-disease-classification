@@ -1,0 +1,11 @@
+torch==2.8.0
+torchvision==0.23.0
+albumentations==2.0.8
+pandas
+numpy
+matplotlib
+seaborn
+pillow
+tqdm
+scikit-learn
+streamlit
